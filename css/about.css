@@ -18,24 +18,15 @@
     background-color: #fff;
 }
 .page__about .title-block__breadcrumbs {
-    color: #333;
     z-index: 2;
     position: absolute;
     top: 33px;
-    margin-left: 69px;
-}
-.page__about .title-block__breadcrumbs a {
-    color: #003873;
 }
 .page__about .title-block__back {
     z-index: 2;
     position: absolute;
     top: 33px;
     right: -58px;
-}
-.page__about .title-block__back-arrow {
-    font-family: "Arial";
-    font-size: 16px;
 }
 .page__about .title-block__title {
     color: #000000;

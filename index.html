@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Euprojects - Main page</title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
     <link rel="shortcut icon" href="img/logo-m.png" type="image/x-icon">
 </head>
 <body class="page">
@@ -31,12 +31,12 @@
                             <a href="#" class="header__share"><img src="img/share.png" alt="" class="header__share-img"></a>
                         </div>
                         <div class="header__right-block">
-                            <div class="header__logo-wrap">
+                            <a href="/" class="header__logo-wrap">
                                 <img src="img/logo-m.png" alt="" class="header__logo-img">
                                 <b class="header__logo-desc">
                                     EUPROJECTS
                                 </b>
-                            </div>
+                            </a>
                             <button class="header__menu-btn js_open_menu">
                                 <span class="header__menu-btn-line"></span>
                                 <span class="header__menu-btn-line"></span>
@@ -51,7 +51,7 @@
                         </button>
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#" class="nav__link link link--w active">
+                                <a href="/" class="nav__link link link--w active">
                                     <span class="digit">
                                         01.
                                     </span>
@@ -61,7 +61,7 @@
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link link link--w">
+                                <a href="about.html" class="nav__link link link--w">
                                     <span class="digit">
                                         02.
                                     </span>
@@ -71,7 +71,7 @@
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link link link--w">
+                                <a href="projects.html" class="nav__link link link--w">
                                     <span class="digit">
                                         03.
                                     </span>
@@ -81,7 +81,7 @@
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link link link--w">
+                                <a href="news.html" class="nav__link link link--w">
                                     <span class="digit">
                                         04.
                                     </span>
@@ -92,7 +92,12 @@
                             </li>
                         </ul>
                     </nav>
-                    <a href="#" class="header__search-link link link--gray active">Search</a>
+                    <!--<a href="#" class="header__search-link link link--gray active">Search</a>-->
+                    <div class="header__search-wrap">
+                        <div class="header__search">
+                            <input class="header__search-text" type="text" placeholder="Search">
+                        </div>
+                    </div>
                 </div>
             </header>
             <div class="title-block__wrap">
@@ -109,17 +114,17 @@
                     </div>
                     <div class="title-block__slide">
                         <img src="img/slide-2.png" alt="" class="title-block__slide-img img">
-                        <h2 class="title-block__slide-title title title--l1">
+                        <h2 class="title-block__slide-title title title&#45;&#45;l1">
                             International experience <br> of building <br> an independent judicial system
                         </h2>
-                        <a href="#" class="title-block__slide-link link link--btn">read more</a>
+                        <a href="#" class="title-block__slide-link link link&#45;&#45;btn">read more</a>
                     </div>
                     <div class="title-block__slide">
                         <img src="img/slide-3.png" alt="" class="title-block__slide-img img">
-                        <h2 class="title-block__slide-title title title--l1">
+                        <h2 class="title-block__slide-title title title&#45;&#45;l1">
                             International experience <br> of building <br> an independent judicial system
                         </h2>
-                        <a href="#" class="title-block__slide-link link link--btn">read more</a>
+                        <a href="#" class="title-block__slide-link link link&#45;&#45;btn">read more</a>
                     </div>
                 </div>
                 <div class="title-block__star-slider js_title_star_slider">
@@ -138,6 +143,12 @@
                     <div class="title-block__star-slide">
                         <p class="title-block__star-digit">
                             03.
+                        </p>
+                        <img src="img/slide-3.png" alt="" class="title-block__star-img">
+                    </div>
+                    <div class="title-block__star-slide">
+                        <p class="title-block__star-digit">
+                            04.
                         </p>
                         <img src="img/slide-3.png" alt="" class="title-block__star-img">
                     </div>
@@ -161,7 +172,7 @@
                         private
                         sector and other actors, and improve the resilience and prosperity of the Kyrgyz people.
                     </p>
-                    <a href="#" class="about__link link link--btn fade fadeInUp__child fade__delay-4">read more</a>
+                    <a href="about.html" class="about__link link link--btn fade fadeInUp__child fade__delay-4">read more</a>
                 </div>
                 <div class="about__right-block img__wrap fade fadeInUp__child fade__delay-5">
                     <img src="img/about.png" alt="" class="about__img img">
@@ -176,7 +187,7 @@
                         <p class="projects__title title title--l3">
                             Projects <br> EU
                         </p>
-                        <a href="#" class="projects__link link link--w">all projects</a>
+                        <a href="projects.html" class="projects__link link link--w">all projects</a>
                     </div>
                     <div class="projects__slider-wrap">
                         <div class="projects__slider js_projects_slider">
@@ -230,15 +241,15 @@
                     <p class="news__title title title--l3">
                         News<br> EU
                     </p>
-                    <a href="#" class="news__link link link--blue">all news</a>
+                    <a href="news.html" class="news__link link link--blue">all news</a>
                 </div>
                 <div class="news__slider js_news_slider">
                     <div class="news__slide fade fadeInUp__child fade__delay-2">
                         <div class="news__img-wrap img__wrap">
-                            <a href="#" class="news__img-link"></a>
+                            <a href="news-detail.html" class="news__img-link"></a>
                             <img src="img/news-1.png" alt="" class="news__img img">
                         </div>
-                        <a href="#" class="news__btn btn btn--b"></a>
+                        <a href="news-detail.html" class="news__btn btn btn--b"></a>
                         <p class="news__desc">
                             Digital skills trainings for local trainers/ project “DigiKonush –
                         </p>
@@ -248,10 +259,10 @@
                     </div>
                     <div class="news__slide fade fadeInUp__child fade__delay-3">
                         <div class="news__img-wrap img__wrap">
-                            <a href="#" class="news__img-link"></a>
+                            <a href="news-detail.html" class="news__img-link"></a>
                             <img src="img/news-2.png" alt="" class="news__img img">
                         </div>
-                        <a href="#" class="news__btn btn btn--b"></a>
+                        <a href="news-detail.html" class="news__btn btn btn--b"></a>
                         <p class="news__desc">
                             EU Village, Osh city
                         </p>
@@ -261,10 +272,10 @@
                     </div>
                     <div class="news__slide fade fadeInUp__child fade__delay-4">
                         <div class="news__img-wrap img__wrap">
-                            <a href="#" class="news__img-link"></a>
+                            <a href="news-detail.html" class="news__img-link"></a>
                             <img src="img/news-3.png" alt="" class="news__img img">
                         </div>
-                        <a href="#" class="news__btn btn btn--b"></a>
+                        <a href="news-detail.html" class="news__btn btn btn--b"></a>
                         <p class="news__desc">
                             Press lunch with journalists, BISHKEK,
                             30
@@ -275,10 +286,10 @@
                     </div>
                     <div class="news__slide fade fadeInUp__child fade__delay-5">
                         <div class="news__img-wrap img__wrap">
-                            <a href="#" class="news__img-link"></a>
+                            <a href="news-detail.html" class="news__img-link"></a>
                             <img src="img/news-4.png" alt="" class="news__img img">
                         </div>
-                        <a href="#" class="news__btn btn btn--b"></a>
+                        <a href="news-detail.html" class="news__btn btn btn--b"></a>
                         <p class="news__desc">
                             EU VILLAGE, Bishkek
                             city
@@ -334,10 +345,10 @@
                         <p class="footer__nav-title">
                             Navigation
                         </p>
-                        <a href="#" class="footer__nav-link link link--w active">Home</a>
-                        <a href="#" class="footer__nav-link link link--w">EU-KG cooperation</a>
-                        <a href="#" class="footer__nav-link link link--w">EU projects</a>
-                        <a href="#" class="footer__nav-link link link--w">News and stories</a>
+                        <a href="/" class="footer__nav-link link link--w active">Home</a>
+                        <a href="about.html" class="footer__nav-link link link--w">EU-KG cooperation</a>
+                        <a href="projects.html" class="footer__nav-link link link--w">EU projects</a>
+                        <a href="news.html" class="footer__nav-link link link--w">News and stories</a>
                     </li>
                     <li class="footer__nav-item">
                         <p class="footer__nav-title">
@@ -363,6 +374,28 @@
             </p>
         </div>
     </footer>
-    <script src="js/scripts.js"></script>
+    <div class="inline-search__block">
+        <div class="inline-search__wrapper">
+            <div id="title-search">
+                <form action="" class="search search--hastype">
+                    <div class="search-input-div">
+                        <input class="search-input" id="title-search-input" type="text" name="q" value="" placeholder="Поиск" size="20" maxlength="50" autocomplete="off">
+                        <div class="search-button"></div>
+                    </div>
+                    <div class="close-button-div">
+                        <span class="inline-search__close inline-search-hide">
+                            <i class="svg inline  svg-inline-search svg-close close-icons colored_theme_hover" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                    <path data-name="Rounded Rectangle 114 copy 3" class="cccls-1" d="M334.411,138l6.3,6.3a1,1,0,0,1,0,1.414,0.992,0.992,0,0,1-1.408,0l-6.3-6.306-6.3,6.306a1,1,0,0,1-1.409-1.414l6.3-6.3-6.293-6.3a1,1,0,0,1,1.409-1.414l6.3,6.3,6.3-6.3A1,1,0,0,1,340.7,131.7Z" transform="translate(-325 -130)"></path>
+                                </svg>
+                            </i>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="search-overlay"></div>
+    <script src="js/scripts.js?v=1.1"></script>
 </body>
 </html>
